@@ -1,0 +1,41 @@
+/*body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;	
+	font-weight: 100;
+	color: red;
+  	text-align: center;
+}*/
+/*Text style declarations*/
+.title-super {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.75em;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;	
+
+}
+
+.title-sub {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.25em;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.text-uppercase {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+	font-weight: 300;
+	color: rebeccapurple;
+}
+
+/*Image style declarations*/
+
+.img-tiny {
+	
+}
