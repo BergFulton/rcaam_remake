@@ -14,8 +14,8 @@ h1 {
 	font-size: 1.75em;
 	font-weight: 100;
 	text-transform: uppercase;
-	text-align: center;	
-
+/*	text-align: center;	
+*/
 }
 
 .title-sub {
@@ -23,19 +23,26 @@ h1 {
 	font-size: 1.25em;
 	font-weight: 100;
 	text-transform: uppercase;
-	text-align: center;
-
+/*	text-align: center;
+*/
 }
 
 .text-uppercase {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.25em;
+	font-style: bold;
 	font-weight: 300;
 	color: rebeccapurple;
 }
 
+.subtitle {
+	border: 1px solid red;
+}
+
 /*Image style declarations*/
 
-.img-tiny {
+/*.img-line {
+	max-height: 300px;
+	border: 1px solid red;
 	
-}
+}*/
