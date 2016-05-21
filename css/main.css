@@ -1,13 +1,4 @@
-/*body {
-  font-family: 'Lato', sans-serif;
-}
 
-h1 {
-	font-family: 'Lato', sans-serif;	
-	font-weight: 100;
-	color: red;
-  	text-align: center;
-}*/
 /*Text style declarations*/
 .title-super {
 	font-family: 'Lato', sans-serif;
@@ -18,12 +9,16 @@ h1 {
 */
 }
 
+a:link {
+	color: white;
+}
+
 .title-sub {
 	font-family: 'Lato', sans-serif;
 	font-size: 1.25em;
 	font-weight: 100;
-	display: none;
-}
+/*	display: none;
+*/}
 
 .text-uppercase {
 	font-family: 'Raleway', sans-serif;
@@ -35,8 +30,7 @@ h1 {
 }
 
 .subtitle {
-/*	border: 1px solid red;
-*/	height: 50px;
+	height: 50px;
 	background: rgb(76, 52, 100);
 }
 
@@ -49,6 +43,32 @@ h1 {
 .home-image {
 	max-width: 100%;
 }
+
+/* Nav styling */
+
+.navbar .nav li{
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+.navbar-custom {
+	background-color: rgb(76, 52, 100);
+}
+/* .main-nav-li {
+ 	display: inline;
+ 	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+	font-style: bold;
+	font-weight: 300;
+/*	background: rgb(76, 52, 100);
+*/}
+
+
+
 
 /* Media queries */
 
